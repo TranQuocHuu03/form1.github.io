@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container-fluid ">     <!-- mt-3= margintop:3-->
+        <ul class="list-group">            <!-- tao group-->
+          <li class="list-group-item bg-info">
+            <div class="form-inline mb-3">
+              <div class="form-group col-sm-11">
+                <h4 class="text">Ingreso de regidtro</h4>
+              </div>
+              <div class="form-group col-sm-1" >
+                <div class="input-group-addon">
+                  <button><i class="fa-solid fa-xmark" style="color:red"></i></button>
+                </div>
+              </div>
+            </div>
+          </li>
+            <div class="container-fluid mt-3">     <!-- mt-3= margintop:3-->
+              <ul class="list-group">  
+                <li class="list-group-item bg-memory"><h4 class="mb-2">Datos de instructor</h4></li>
+                <li class="list-group-item">
+                  <form class="form-horizontal">
+                    <div class="form-inline mb-3">
+                      <div class="form-group col-sm-6">
+                        <label class="my-1 mr-5" for="myRun" >Run</label>   <!-- lable nó sẽ nhỏ dần theo kích thước của từng tag h1-->
+                        <input type="text " class="form-control is-invalid">
+                        <div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                      <div class="form-group col-sm-6">
+                        <label class="my-1 mr-5" for="myNombre completo">Nombre completo</label>
+                        <input type="Nombre completo" class="form-control is-invalid">
+                        <div class="invalid-feedback">
+                          Please choose fill information.
+                        </div>
+                      </div>
+                      <div class="invalid-feedback">
+                        Please choose fill information.
+                      </div>
+                    </div>
+                    <div class="form-inline mb-3">
+                      <div class="form-group col-sm-6">
+                        <label class="my-1 mr-5" for="inputFecha Nacimiento">Fecha Nacimiento
+                          </label>
+                          <div class="input-group">
+                          <!-- <i class="fa-solid fa-calendar-days"></i>
+                        <input type="Fecha Nacimiento" class="input-group-text"
+                          id="myFecha Nacimiento" placeholder=" dd-mm-aaaa"> -->
+                          <div class="input-group-prepend">
+                            <div class="input-group-text">
+                              <i class="fa-solid fa-calendar" ></i>
+                            </div>
+                          </div>
+                          <input type="date" class="form-control" id="inlineFormInputGroupEmail" placeholder=" dd-mm-aaaa">
+                          </div>
+                      </div>
+                      <div class="form-group col-sm-6">
+                        <label class="my-1 mr-5" for="inlineFormInputGroupEmail">gmail</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text">@</div>
+                            </div>
+                            <input type="email" class="form-control" id="inlineFormInputGroupEmail" placeholder="">
+                          </div>
+                        <!-- <label for="inputEmail">Email</label>
+                        <input type="Email" class="form-control"
+                        id="myEmail" placeholder="">
+                        <i class="fa-regular fa-at"></i> -->
+                      </div>
+                    </div>
+                    <div class="form-inline mb-3">
+                      <div class="form-inline col-sm-6">
+                        <label class="my-1 mr-5" for="inputTelefono">Telefono</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text">
+                              <i class="fa-regular">12</i></div>
+                          </div>
+                        <select class="custom-select custom-select-sm " id="exampleFormControlSelect2">
+                          <option selected>Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                          <option value="4">four</option>
+                          <option value="5">five</option>
+                          <option value="6">six</option>
+                          <option value="7">seven</option>
+                          <option value="8">eight</option>
+                          <option value="9">nine</option>
+                          <option value="10">ten</option>
+                          <option value="11">eleven</option>
+                          <option value="12">twelfth</option>
+                        </select>
+                      </div>
+                      </div>
+                      <div class="form-group col-sm-6">
+                        <label class="my-1 mr-5" for="inputDireccion">Direccion</label>
+                        <input type="Direccion" class="form-control">
+                      </div>
+                    </div>
+                    <div class="form-inline mb-3">
+                    <div class="form-group col-sm-6">
+                      <label class="my-1 mr-5" for="myCiudad">Ciudad</label>
+                      <select id="myCiudad" class="form-control">
+                        <option selected>Choose1</option>
+                        <option>Choose2</option>
+                        <option>Choose3</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-sm-6">
+                      <label class="my-1 mr-5" for="myComuna">Comuna</label>
+                      <select id="myComuna" class="form-control">
+                        <option selected>Choose1</option>
+                        <option>Choose2</option>
+                        <option>Choose3</option>
+                      </select>
+                    </div>
+                    </div>
+                    <div class="form-inline mb-3">
+                    <div class="form-group col-sm-12 ">
+                      <label class="my-1 mr-5" for="myAuto">Auto</label>
+                      <select id="myAuto" class="form-control ">
+                        <option selected >xxxx-15</option>
+                        <option>xxxx-18</option>
+                        <option>xxxx-30</option>
+                        <option>....</option>
+                      </select>
+                    </div>
+                    </div> 
+                  </form>
+                </li>
+              </ul>
+            </div>
+            
+              <li class="list-group-item bg-info mt-3">
+                <div class="form-inline mb-3">
+                  <div class="form-inline col-sm-10"></div>
+                  <div class="form-inline col-sm-2">
+                    <h4 class="mb-2">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                      <button type="button" class="btn btn-secondary">Cancelar</button>
+                    </h4>
+                  </div>
+                </div>
+              </li>
+         
+        </ul>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
